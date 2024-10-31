@@ -1,0 +1,157 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.wrapper {
+    display: flex;
+}
+
+/* Sidebar Styles */
+#sidebar {
+    width: 250px;
+    min-height: 100vh;
+    padding: 20px;
+    border-right: 1px solid #e9ecef;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.menu-label {
+    color: #6c757d;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.sidebar-menu ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar-menu ul li a {
+    color: #495057;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sidebar-menu ul li a i {
+    margin-right: 10px;
+}
+
+.sidebar-menu ul li.active a {
+    background-color: #f0f0ff;
+    color: #6366f1;
+}
+
+/* Main Content Styles */
+#content {
+    flex: 1;
+}
+
+.navbar {
+    padding: 15px 30px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.search-box {
+    position: relative;
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.search-box input {
+    border: none;
+    background: none;
+    outline: none;
+    padding-left: 25px;
+}
+
+.search-box i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.theme-toggle .btn,
+.notifications .btn {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Stats Cards Styles */
+.stats-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    border-radius: 10px;
+}
+
+/* Chart Styles */
+.form-select {
+    border-color: #e9ecef;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #sidebar {
+        position: fixed;
+        top: 0;
+        left: -250px;
+        z-index: 1000;
+        transition: left 0.3s ease-in-out;
+    }
+    
+    #sidebar.active {
+        left: 0;
+    }
+    
+    .logo-container span,
+    .sidebar-menu ul li a span {
+        display: none;
+    }
+    
+    .sidebar-menu ul li a i {
+        margin-right: 0;
+    }
+    
+    .navbar-toggler {
+        display: block;
+    }
+
+    .col-row {
+        column-count: 2;
+    }
+
+    .baris {
+        margin-top: auto;
+        display: flex;
+        background-color: #6366f1;
+      }
+      
+      .kolom {
+        flex:50%;
+      }
+
+
+}

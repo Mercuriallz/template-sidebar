@@ -1,0 +1,7 @@
+.baris {
+    display: flex;
+  }
+  
+  .kolom {
+    flex:50%;
+  }
