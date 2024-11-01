@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <nav id="sidebar" class="bg-white d-md-block">
+            <div class="sidebar-header">
+                <div class="logo-container">
+                    <span class="ms-2 fw-bold">Media</span>
+                </div>
+            </div>
+
+            <div class="sidebar-menu">
+                <p class="menu-label">NAVIGATION</p>
+                <ul class="list-unstyled">
+                    <li class="active">
+                        <a href="index.html"><i class="bi bi-person-circle"></i> <span>About Me</span></a>
+                    </li>
+                    <li class="active">
+                        <a href="introduction.html"><i class="bi bi-info"></i> <span>Introduction</span></a>
+                    </li>
+                    <li class="active">
+                        <a href="media.html"><i class="bi bi-collection-play"></i> <span>Media</span></a>
+                    </li>
+                    
+                    <li class="active">
+                        <a href="resource.html"><i class="bi bi-file-bar-graph-fill"></i><span>Resource</span></a>
+                    </li>
+                    <li class="active">
+                        <a href="ai-app.html"><i class="bi bi-window-desktop"></i> <span>Ai Apps</span></a>
+                    </li>
+                    <li class="active">
+                        <a href="login.html"><i class="bi bi-box-arrow-left"></i> <span>Logout</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="media" class="container mt-5">
+            <h2 class="text-center">AI Media Gallery</h2>
+            <p class="text-center">Explore AI through various types of media.</p>
+
+            <div class="row">
+                <!-- buat video -->
+                <div class="col-md-4 text-center">
+                    <h4>AI Videos</h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            <iframe width="100%" src="https://www.youtube.com/embed/ad79nYk2keg?si=ndqjooq3uvrddesl" title="AI Video 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </li>
+                        <li class="mt-3">
+                            <iframe width="100%" src="https://www.youtube.com/embed/CbyrgqR4Nko?si=AWOMoS3ELRXFXew6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- buat audio -->
+                <div class="col-md-4 text-center">
+                    <h4>AI Audio</h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            <audio controls>
+                                <source src="/audio/My Chemical Romance - Disenchanted.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </li>
+                        <li class="mt-3">
+                            <audio controls>
+                                <source src="/audio/Avril Lavigne - When You're Gone (Official Video).mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Buat image -->
+                <div class="col-md-4 text-center">
+                    <h4>AI Images</h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            <img src="image/6440f9477c2a321f0dd6ab61_How Artificial Intelligence (AI) Is Used In Biometrics.jpg" alt="AI Image 1" class="img-fluid rounded">
+                        </li>
+                        <li class="mt-3">
+                            <img src="image/ai-banner-800x450_tcm100-7204059_tcm100-6286607-32.jpg" alt="AI Image 2" class="img-fluid rounded">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>&copy; 2024 AI Hub | All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

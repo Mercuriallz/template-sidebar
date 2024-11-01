@@ -6,7 +6,6 @@ body {
     display: flex;
 }
 
-/* Sidebar Styles */
 #sidebar {
     width: 250px;
     min-height: 100vh;
@@ -48,7 +47,6 @@ body {
     color: #6366f1;
 }
 
-/* Main Content Styles */
 #content {
     flex: 1;
 }
@@ -90,7 +88,6 @@ body {
     justify-content: center;
 }
 
-/* Stats Cards Styles */
 .stats-icon {
     width: 50px;
     height: 50px;
@@ -106,13 +103,11 @@ body {
     border-radius: 10px;
 }
 
-/* Chart Styles */
 .form-select {
     border-color: #e9ecef;
     cursor: pointer;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     #sidebar {
         position: fixed;
@@ -142,16 +137,5 @@ body {
     .col-row {
         column-count: 2;
     }
-
-    .baris {
-        margin-top: auto;
-        display: flex;
-        background-color: #6366f1;
-      }
-      
-      .kolom {
-        flex:50%;
-      }
-
 
 }

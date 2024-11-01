@@ -4,20 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>My Video Collection</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="../styles.css">
 </head>
 
 <body>
     <div class="wrapper">
-
-
         <nav id="sidebar" class="bg-white d-md-block">
             <div class="sidebar-header">
                 <div class="logo-container">
-                    <span class="ms-2 fw-bold">About me</span>
+                    <span class="ms-2 fw-bold">AI Introduction</span>
                 </div>
             </div>
 
@@ -47,45 +45,30 @@
             </div>
         </nav>
 
-
-        <div id="content">
-            <div class="container-fluid p-4">
-
-                <section id="biodata" class="mb-4">
-                    <h2>Biodata</h2>
-                    <br>
-                    <div class="row">
-                        <div class="col-md-3 text-center mb-3">
-                            <img src="image/foto_blek.jpg" alt="Dio's Photo"
-                                class="img-fluid rounded-circle" style="width: 150px; height: 150px;">
-                        </div>
-
-                        <div class="col-md-9">
-                            <p><strong>Full Name:</strong> Ramanda Dio</p>
-                            <p><strong>Job Title:</strong> Full Stack Engineer</p>
-                            <p><strong>Experience:</strong> Extensive experience in application development, especially
-                                mobile applications using Flutter.</p>
-                            <p><strong>Languages:</strong> Indonesian, English</p>
-                            <p><strong>Skills:</strong> Dart, Flutter, SQL, TypeScript, NextJS, React</p>
-                            </p>
-                        </div>
+        <main class="flex-grow-1 ms-auto p-4" style="margin-left: 250px;">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold">Introduction to Artificial Intelligence</h2>
+                    <p class="lead text-muted">Discover the fascinating world of AI and its applications.</p>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <img src="image/6440f9477c2a321f0dd6ab61_How Artificial Intelligence (AI) Is Used In Biometrics.jpg" alt="AI Image" class="img-fluid rounded shadow-sm">
                     </div>
-                </section>
-
-
-                <section id="about-me" class="mb-4">
-                    <h2>About Me</h2>
-                    <p>HHello, my name is Ramanda Dio, and you can call me Dio. I have experience in Application Development, specifically as a Mobile
-                        Developer. I am very enthusiastic about my experience in Coding and always eager to keep growing. I believe that this
-                        position is a perfect fit to further enhance my skills and contribute significantly in the team. With a strong understanding of
-                        front-end technologies and the ability to work effectively in a team, I am committed to delivering the best results and always
-                        ready for new challenges.</p>
-                </section>
-
+                    <div class="col-md-6">
+                        <h3 class="fw-semibold">What is Artificial Intelligence?</h3>
+                        <p>Artificial Intelligence (AI) is the simulation of human intelligence in machines. It is widely used in various fields, from healthcare to automotive industries.</p>
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Machine Learning</li>
+                            <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Natural Language Processing</li>
+                            <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Computer Vision</li>
+                        </ul>
+                        <a href="https://en.wikipedia.org/wiki/Artificial_intelligence" class="btn btn-primary mt-3" target="_blank">Learn More</a>
+                    </div>
+                </div>
             </div>
-        </div>
+        </main>
     </div>
-
     <footer class="bg-dark text-white text-center py-3 mt-5">
         <p>&copy; 2024 AI Hub | All rights reserved.</p>
     </footer>
